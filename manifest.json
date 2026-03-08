@@ -1,0 +1,99 @@
+{
+  "name": "GDS Ottawa - Garage Door Service",
+  "short_name": "GDS Ottawa",
+  "description": "Emergency garage door repair and installation service in Ottawa. Same-day service available. Call 343-777-8893",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0066cc",
+  "theme_color": "#0066cc",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["business", "utilities", "lifestyle"],
+  "lang": "en-CA",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "label": "GDS Ottawa Emergency Service"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Emergency Call",
+      "short_name": "Call",
+      "description": "Call GDS emergency service",
+      "url": "tel:3437778893",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "WhatsApp Chat",
+      "short_name": "Chat",
+      "description": "Chat with us on WhatsApp",
+      "url": "https://wa.me/13437778893",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Get Quote",
+      "short_name": "Quote",
+      "description": "Request a free quote",
+      "url": "/?page=request",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "View Gallery",
+      "short_name": "Gallery",
+      "description": "See our work",
+      "url": "/?page=gallery",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "iarc_rating_id": "",
+  "share_target": {
+    "action": "/?share",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
